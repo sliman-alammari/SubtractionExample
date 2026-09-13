@@ -5,6 +5,12 @@ int add(int a, int b) {
 	return a + b;
 }
 
+int Subtract(int firstNumber, int secondNumber)
+{
+	return firstNumber - secondNumber;
+}
+
+
 int main() {
    
 	cout << "\n\nCalculater Application\n\n";
@@ -13,7 +19,7 @@ int main() {
 	
 	cout << "Add 2+4 = " << add(2, 4) << endl;
 
-
+	cout << "10 - 4 = " << Subtract(10, 4) << '\n';
 
 	return 0;
 }
