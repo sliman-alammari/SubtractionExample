@@ -14,7 +14,10 @@ int Multiply(int firstNumber, int secondNumber)
 {
 	return firstNumber * secondNumber;
 }
-
+int Divison(int firstNumber, int secondNumber)
+{
+	return firstNumber / secondNumber;
+}
 int main() {
    
 	cout << "\n\nCalculater Application\n\n";
